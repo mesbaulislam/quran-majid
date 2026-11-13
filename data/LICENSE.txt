@@ -1,0 +1,9 @@
+Quran KaiOS data licensing notice
+
+This source-code project does not include Quranic verses, Bengali translation, or Bengali pronunciation. The packager must provide and verify those data files separately.
+
+Arabic source option: Tanzil Quran Text, Copyright (C) 2007-2021 Tanzil Project, Creative Commons Attribution 3.0. Tanzil permits verbatim copying and distribution, prohibits changing the text, and requires the copyright notice, attribution to Tanzil Project, and a link to https://tanzil.net in copies or derived files containing a substantial portion of the text. Verify the current source terms and retain the complete notice with the imported data.
+
+Bengali translation and pronunciation/transliteration: no license is asserted by this project. Obtain explicit redistribution permission or use a source whose license permits redistribution in an offline application, and add that source's complete license and attribution here before packaging.
+
+The presence of this file does not grant permission for any Bengali content or for any third-party font.

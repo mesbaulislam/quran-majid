@@ -1,0 +1,711 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+  >
+
+  <meta
+    name="theme-color"
+    content="#07301f"
+  >
+
+  <title>Quran Majid</title>
+
+  <link
+    rel="stylesheet"
+    href="css/style.css"
+  >
+</head>
+
+<body>
+
+  <main id="app">
+
+    <!-- =========================
+         SPLASH
+    ========================== -->
+
+    <section
+      id="splash"
+      class="screen splash-screen"
+    >
+
+      <div
+        class="splash-mark"
+        aria-hidden="true"
+      >
+        ۞
+      </div>
+
+      <h1>QURAN</h1>
+
+      <p>কুরআন শরীফ</p>
+
+    </section>
+
+
+
+    <!-- =========================
+         HOME
+    ========================== -->
+
+    <section
+      id="home"
+      class="screen hidden"
+    >
+
+      <header class="app-header home-header">
+
+        <span
+          class="home-mark"
+          aria-hidden="true"
+        >۞</span>
+
+        <div class="home-title-wrap">
+
+          <h1 data-i18n="appTitle">কুরআন মাজীদ</h1>
+
+          <p class="home-sub">Offline Quran Reader</p>
+
+        </div>
+
+      </header>
+
+      <div
+        id="kaiads-home"
+        class="kaiads-container"
+        aria-label="Advertisement"
+        style="width:240px;height:80px;margin:6px auto 8px;overflow:hidden;"
+      ></div>
+
+      <div class="home-content">
+
+        <div class="home-card">
+
+          <p
+            class="eyebrow"
+            data-i18n="hLastRead"
+          >
+            শেষ পড়া
+          </p>
+
+          <p
+            id="last-read-label"
+            class="last-read"
+          >
+            কোনো পাঠ সংরক্ষিত নেই
+          </p>
+
+          <div class="home-prog-row">
+
+            <span
+              id="home-progress"
+              class="progress-box"
+            >
+              অগ্রগতি: 0%
+            </span>
+
+            <div class="mini-track">
+
+              <span id="home-progress-fill"></span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <nav
+          id="home-menu"
+          class="menu-list"
+          aria-label="প্রধান মেনু"
+        ></nav>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         SURAH LIST
+    ========================== -->
+
+    <section
+      id="surah-list"
+      class="screen hidden"
+    >
+
+      <header class="app-header">
+
+        <h1 data-i18n="surahTitle">সূরা তালিকা</h1>
+
+        <span
+          id="surah-count"
+          class="header-count"
+        ></span>
+
+      </header>
+
+      <div class="surah-search-wrap">
+
+        <input
+          id="surah-search"
+          type="text"
+          autocomplete="off"
+          data-i18n-ph="surahSearchPh"
+          placeholder="সূরা অনুসন্ধান করুন..."
+        >
+
+      </div>
+
+      <div
+        id="surah-items"
+        class="scroll-list"
+        tabindex="0"
+      ></div>
+
+    </section>
+
+
+    <!-- =========================
+         READER
+    ========================== -->
+
+    <section
+      id="reader"
+      class="screen hidden"
+    >
+
+      <header class="app-header">
+
+        <h1
+          id="reader-title"
+          data-i18n="readerTitle"
+        >
+          পাঠ
+        </h1>
+
+        <span
+          id="reader-position"
+          class="header-count"
+        ></span>
+
+      </header>
+
+      <div
+        id="reader-info"
+        class="reader-info"
+      ></div>
+
+      <div
+        id="reader-content"
+        class="reader-content"
+        tabindex="0"
+      ></div>
+
+    </section>
+
+
+    <!-- =========================
+         SEARCH
+    ========================== -->
+
+    <section
+      id="search"
+      class="screen hidden"
+    >
+
+      <header class="app-header">
+
+        <h1 data-i18n="searchTitle">অনুসন্ধান</h1>
+
+      </header>
+
+      <div class="form-content">
+
+        <label
+          for="search-input"
+          data-i18n="searchLabel"
+        >
+          সূরা নাম, নম্বর বা বাংলা অর্থ
+        </label>
+
+        <input
+          id="search-input"
+          type="text"
+          autocomplete="off"
+        >
+
+      </div>
+
+      <div
+        id="search-results"
+        class="scroll-list"
+      ></div>
+
+    </section>
+
+
+    <!-- =========================
+         BOOKMARKS
+    ========================== -->
+
+    <section
+      id="bookmarks"
+      class="screen hidden"
+    >
+
+      <header class="app-header">
+
+        <h1 data-i18n="bmTitle">বুকমার্ক</h1>
+
+      </header>
+
+      <div
+        id="bookmark-items"
+        class="scroll-list"
+      ></div>
+
+    </section>
+
+
+    <!-- =========================
+         FAVOURITES
+    ========================== -->
+
+    <section
+      id="favourites"
+      class="screen hidden"
+    >
+
+      <header class="app-header">
+
+        <h1 data-i18n="favTitle">প্রিয় সুরা</h1>
+
+      </header>
+
+      <div
+        id="favourite-items"
+        class="scroll-list"
+      ></div>
+
+    </section>
+
+
+    <!-- =========================
+         GO TO AYAH
+    ========================== -->
+
+    <section
+      id="go-ayah"
+      class="screen hidden"
+    >
+
+      <header class="app-header">
+
+        <h1 data-i18n="goTitle">আয়াতে যান</h1>
+
+      </header>
+
+      <div class="form-content">
+
+        <label
+          for="ayah-input"
+          data-i18n="goLabel"
+        >
+          Surah:Ayah লিখুন
+        </label>
+
+        <input
+          id="ayah-input"
+          type="text"
+          inputmode="numeric"
+          autocomplete="off"
+          placeholder="যেমন 2:255"
+        >
+
+        <p
+          id="ayah-error"
+          class="inline-error hidden"
+        ></p>
+
+        <p
+          class="small"
+          data-i18n="goHint"
+        >
+          উদাহরণ: 1:1, 2:255, 36:58
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         JUZ
+    ========================== -->
+
+    <section
+      id="juz-list"
+      class="screen hidden"
+    >
+
+      <header class="app-header">
+
+        <h1 data-i18n="juzTitle">জুজ / পারা</h1>
+
+      </header>
+
+      <div
+        id="juz-items"
+        class="scroll-list"
+      ></div>
+
+    </section>
+
+
+    <!-- =========================
+         HISTORY
+    ========================== -->
+
+    <section
+      id="history"
+      class="screen hidden"
+    >
+
+      <header class="app-header">
+
+        <h1 data-i18n="histTitle">পাঠের ইতিহাস</h1>
+
+      </header>
+
+      <div
+        id="history-items"
+        class="scroll-list"
+      ></div>
+
+    </section>
+
+
+    <!-- =========================
+         PROGRESS
+    ========================== -->
+
+    <section
+      id="progress"
+      class="screen hidden"
+    >
+
+      <header class="app-header">
+
+        <h1 data-i18n="progTitle">পাঠের অগ্রগতি</h1>
+
+      </header>
+
+      <div
+        id="progress-content"
+        class="about-content"
+      ></div>
+
+    </section>
+
+
+    <!-- =========================
+         SETTINGS
+    ========================== -->
+
+    <section
+      id="settings"
+      class="screen hidden"
+    >
+
+      <header class="app-header">
+
+        <h1 data-i18n="setTitle">সেটিংস</h1>
+
+      </header>
+
+      <div
+        id="settings-items"
+        class="menu-list"
+      ></div>
+
+    </section>
+
+
+    <!-- =========================
+         MENU (context menu)
+    ========================== -->
+
+    <section
+      id="menu"
+      class="screen hidden"
+    >
+
+      <header class="app-header">
+
+        <h1 data-i18n="menuTitle">মেনু</h1>
+
+      </header>
+
+      <nav
+        id="menu-items"
+        class="menu-list"
+        aria-label="মেনু"
+      ></nav>
+
+    </section>
+
+
+    <!-- =========================
+         HELP
+    ========================== -->
+
+    <section
+      id="help"
+      class="screen hidden"
+    >
+
+      <header class="app-header">
+
+        <h1 data-i18n="helpTitle">সাহায্য</h1>
+
+      </header>
+
+      <div class="help-content">
+
+        <h2 data-i18n="helpUse">Quran Majid ব্যবহার</h2>
+
+        <p data-i18n="helpIntro">
+          এই অ্যাপটি KaiOS keypad phone-এর জন্য তৈরি।
+        </p>
+
+
+        <h3 data-i18n="helpShortcuts">Reader Shortcut</h3>
+
+        <div class="shortcut-row">
+          <span>1</span>
+          <strong data-i18n="helpS1">Zoom Out</strong>
+        </div>
+
+        <div class="shortcut-row">
+          <span>2</span>
+          <strong data-i18n="helpS2">Previous Surah</strong>
+        </div>
+
+        <div class="shortcut-row">
+          <span>3</span>
+          <strong data-i18n="helpS3">Zoom In</strong>
+        </div>
+
+        <div class="shortcut-row">
+          <span>4</span>
+          <strong data-i18n="helpS4">History</strong>
+        </div>
+
+        <div class="shortcut-row">
+          <span>5</span>
+          <strong data-i18n="helpS5">Bookmark / Remove</strong>
+        </div>
+
+        <div class="shortcut-row">
+          <span>6</span>
+          <strong data-i18n="helpS6">Surah Information</strong>
+        </div>
+
+        <div class="shortcut-row">
+          <span>7</span>
+          <strong data-i18n="helpS7">Go to Ayah</strong>
+        </div>
+
+        <div class="shortcut-row">
+          <span>8</span>
+          <strong data-i18n="helpS8">Next Surah</strong>
+        </div>
+
+        <div class="shortcut-row">
+          <span>9</span>
+          <strong data-i18n="helpS9">Favourite / Remove</strong>
+        </div>
+
+
+        <h3 data-i18n="helpNav">Reader Navigation</h3>
+
+        <p data-i18n="helpP1">
+          ↑ / ↓ — আয়াতের মধ্যে scroll
+        </p>
+
+        <p data-i18n="helpP2">
+          আয়াতের একদম নিচে পৌঁছালে ↓ দিয়ে পরের Ayah
+        </p>
+
+        <p data-i18n="helpP3">
+          আয়াতের একদম উপরে গেলে ↑ দিয়ে আগের Ayah
+        </p>
+
+        <p data-i18n="helpP4">
+          Back — আগের screen
+        </p>
+
+        <p data-i18n="helpP5">
+          Enter — Select / Open
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         ABOUT
+    ========================== -->
+
+    <section
+      id="about"
+      class="screen hidden"
+    >
+
+      <header class="app-header">
+
+        <h1 data-i18n="aboutTitle">পরিচিতি</h1>
+
+      </header>
+
+      <div id="about-content" class="about-content">
+
+        <h2>Quran Majid</h2>
+
+        <p>
+          Version 2.4.0
+        </p>
+
+        <p>
+          একটি lightweight, fully offline Quran reader।
+        </p>
+
+        <p>
+          <strong>Developer:</strong>
+          Mesbaul Islam
+        </p>
+
+        <hr>
+
+        <h3>Credits</h3>
+
+        <p>
+          Arabic Quran Text:
+          Tanzil Quran Text
+        </p>
+
+        <p>
+          Bengali Translation:
+          ব্যবহৃত verified source অনুযায়ী
+        </p>
+
+        <hr>
+
+        <h3>Application</h3>
+
+        <p>
+          Designed for KaiOS feature phones.
+        </p>
+
+        <p>
+          Fully Offline.
+        </p>
+
+        <p>
+          No runtime internet connection required.
+        </p>
+
+        <hr>
+
+        <h3>Contact Us</h3>
+
+        <p>
+          কোনো সমস্যা, পরামর্শ বা feedback থাকলে যোগাযোগ করুন:
+        </p>
+
+        <a
+          class="contact-email"
+          href="mailto:maworld.info08@gmail.com"
+        >
+          maworld.info08@gmail.com
+        </a>
+
+        <button
+          id="contact-button"
+          class="contact-button"
+          type="button"
+        >
+          Email Developer
+        </button>
+
+        <p class="small">
+          © 2026 Quran Majid
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         ERROR
+    ========================== -->
+
+    <p
+      id="error-message"
+      class="error hidden"
+      role="alert"
+    ></p>
+
+
+    <!-- Softkey bar: shown on Home only (Menu / Select) -->
+
+    <footer
+      id="softkeys"
+      class="softkeys"
+    >
+
+      <span
+        id="soft-left"
+        data-i18n="skMenu"
+      >
+        মেনু
+      </span>
+
+      <span
+        id="soft-center"
+        data-i18n="skOk"
+      >
+        সিলেক্ট
+      </span>
+
+      <span
+        id="soft-right"
+      ></span>
+
+    </footer>
+
+  </main>
+
+
+  <!-- =========================
+       SCRIPTS
+  ========================== -->
+
+  <script src="js/storage.js"></script>
+  <script src="js/quran.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/settings.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/kaiads.v5.min.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>

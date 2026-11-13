@@ -1,0 +1,34 @@
+{
+  "version": "2.4.0",
+  "name": "Quran Majid",
+  "short_name": "Quran Majid",
+  "subtitle": "Offline Quran Reader",
+  "description": "Offline Quran reader with Arabic text, Bengali translation, Surah and Ayah navigation, bookmarks, favourites and reading progress.",
+  "type": "web",
+  "launch_path": "/index.html",
+  "fullscreen": true,
+
+  "icons": {
+    "56": "/icons/icon-56.png",
+    "112": "/icons/icon-112.png"
+  },
+
+  "developer": {
+    "name": "Mesbaul Islam",
+    "url": "https://www.facebook.com/mesbaul.islam08"
+  },
+
+  "categories": [
+    "book/reference"
+  ],
+
+  "default_locale": "en-US",
+
+  "locales": {
+    "en-US": {
+      "name": "Quran Majid",
+      "subtitle": "Offline Quran Reader",
+      "description": "A complete offline Quran reader with Arabic text, Bengali translation, Surah and Ayah navigation, bookmarks and reading progress."
+    }
+  }
+}

@@ -1,0 +1,1020 @@
+{
+  "source": {
+    "name": "Tanzil Quran metadata + semarketir/quranjson Juz boundaries",
+    "tanzilUrl": "https://tanzil.net/docs/quran_metadata",
+    "juzUrl": "https://github.com/semarketir/quranjson/blob/master/source/juz.json",
+    "note": "Surah introductions are intentionally empty when no verified source is bundled."
+  },
+  "surahs": [
+    {
+      "number": 1,
+      "ayahCount": 7,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 2,
+      "ayahCount": 286,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 3,
+      "ayahCount": 200,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 4,
+      "ayahCount": 176,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 5,
+      "ayahCount": 120,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 6,
+      "ayahCount": 165,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 7,
+      "ayahCount": 206,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 8,
+      "ayahCount": 75,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 9,
+      "ayahCount": 129,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 10,
+      "ayahCount": 109,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 11,
+      "ayahCount": 123,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 12,
+      "ayahCount": 111,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 13,
+      "ayahCount": 43,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 14,
+      "ayahCount": 52,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 15,
+      "ayahCount": 99,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 16,
+      "ayahCount": 128,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 17,
+      "ayahCount": 111,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 18,
+      "ayahCount": 110,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 19,
+      "ayahCount": 98,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 20,
+      "ayahCount": 135,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 21,
+      "ayahCount": 112,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 22,
+      "ayahCount": 78,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 23,
+      "ayahCount": 118,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 24,
+      "ayahCount": 64,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 25,
+      "ayahCount": 77,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 26,
+      "ayahCount": 227,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 27,
+      "ayahCount": 93,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 28,
+      "ayahCount": 88,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 29,
+      "ayahCount": 69,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 30,
+      "ayahCount": 60,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 31,
+      "ayahCount": 34,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 32,
+      "ayahCount": 30,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 33,
+      "ayahCount": 73,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 34,
+      "ayahCount": 54,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 35,
+      "ayahCount": 45,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 36,
+      "ayahCount": 83,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 37,
+      "ayahCount": 182,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 38,
+      "ayahCount": 88,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 39,
+      "ayahCount": 75,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 40,
+      "ayahCount": 85,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 41,
+      "ayahCount": 54,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 42,
+      "ayahCount": 53,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 43,
+      "ayahCount": 89,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 44,
+      "ayahCount": 59,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 45,
+      "ayahCount": 37,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 46,
+      "ayahCount": 35,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 47,
+      "ayahCount": 38,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 48,
+      "ayahCount": 29,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 49,
+      "ayahCount": 18,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 50,
+      "ayahCount": 45,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 51,
+      "ayahCount": 60,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 52,
+      "ayahCount": 49,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 53,
+      "ayahCount": 62,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 54,
+      "ayahCount": 55,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 55,
+      "ayahCount": 78,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 56,
+      "ayahCount": 96,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 57,
+      "ayahCount": 29,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 58,
+      "ayahCount": 22,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 59,
+      "ayahCount": 24,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 60,
+      "ayahCount": 13,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 61,
+      "ayahCount": 14,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 62,
+      "ayahCount": 11,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 63,
+      "ayahCount": 11,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 64,
+      "ayahCount": 18,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 65,
+      "ayahCount": 12,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 66,
+      "ayahCount": 12,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 67,
+      "ayahCount": 30,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 68,
+      "ayahCount": 52,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 69,
+      "ayahCount": 52,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 70,
+      "ayahCount": 44,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 71,
+      "ayahCount": 28,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 72,
+      "ayahCount": 28,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 73,
+      "ayahCount": 20,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 74,
+      "ayahCount": 56,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 75,
+      "ayahCount": 40,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 76,
+      "ayahCount": 31,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 77,
+      "ayahCount": 50,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 78,
+      "ayahCount": 40,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 79,
+      "ayahCount": 46,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 80,
+      "ayahCount": 42,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 81,
+      "ayahCount": 29,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 82,
+      "ayahCount": 19,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 83,
+      "ayahCount": 36,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 84,
+      "ayahCount": 25,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 85,
+      "ayahCount": 22,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 86,
+      "ayahCount": 17,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 87,
+      "ayahCount": 19,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 88,
+      "ayahCount": 26,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 89,
+      "ayahCount": 30,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 90,
+      "ayahCount": 20,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 91,
+      "ayahCount": 15,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 92,
+      "ayahCount": 21,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 93,
+      "ayahCount": 11,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 94,
+      "ayahCount": 8,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 95,
+      "ayahCount": 8,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 96,
+      "ayahCount": 19,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 97,
+      "ayahCount": 5,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 98,
+      "ayahCount": 8,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 99,
+      "ayahCount": 8,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 100,
+      "ayahCount": 11,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 101,
+      "ayahCount": 11,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 102,
+      "ayahCount": 8,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 103,
+      "ayahCount": 3,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 104,
+      "ayahCount": 9,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 105,
+      "ayahCount": 5,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 106,
+      "ayahCount": 4,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 107,
+      "ayahCount": 7,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 108,
+      "ayahCount": 3,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 109,
+      "ayahCount": 6,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 110,
+      "ayahCount": 3,
+      "type": "Madani",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 111,
+      "ayahCount": 5,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 112,
+      "ayahCount": 4,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 113,
+      "ayahCount": 5,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    },
+    {
+      "number": 114,
+      "ayahCount": 6,
+      "type": "Makki",
+      "order": null,
+      "introduction": ""
+    }
+  ],
+  "juz": [
+    {
+      "number": 1,
+      "fromSurah": 1,
+      "fromAyah": 1,
+      "toSurah": 2,
+      "toAyah": 141
+    },
+    {
+      "number": 2,
+      "fromSurah": 2,
+      "fromAyah": 142,
+      "toSurah": 2,
+      "toAyah": 252
+    },
+    {
+      "number": 3,
+      "fromSurah": 2,
+      "fromAyah": 253,
+      "toSurah": 3,
+      "toAyah": 92
+    },
+    {
+      "number": 4,
+      "fromSurah": 3,
+      "fromAyah": 93,
+      "toSurah": 4,
+      "toAyah": 23
+    },
+    {
+      "number": 5,
+      "fromSurah": 4,
+      "fromAyah": 24,
+      "toSurah": 4,
+      "toAyah": 147
+    },
+    {
+      "number": 6,
+      "fromSurah": 4,
+      "fromAyah": 148,
+      "toSurah": 5,
+      "toAyah": 81
+    },
+    {
+      "number": 7,
+      "fromSurah": 5,
+      "fromAyah": 82,
+      "toSurah": 6,
+      "toAyah": 110
+    },
+    {
+      "number": 8,
+      "fromSurah": 6,
+      "fromAyah": 111,
+      "toSurah": 7,
+      "toAyah": 87
+    },
+    {
+      "number": 9,
+      "fromSurah": 7,
+      "fromAyah": 88,
+      "toSurah": 8,
+      "toAyah": 40
+    },
+    {
+      "number": 10,
+      "fromSurah": 8,
+      "fromAyah": 41,
+      "toSurah": 9,
+      "toAyah": 92
+    },
+    {
+      "number": 11,
+      "fromSurah": 9,
+      "fromAyah": 93,
+      "toSurah": 11,
+      "toAyah": 5
+    },
+    {
+      "number": 12,
+      "fromSurah": 11,
+      "fromAyah": 6,
+      "toSurah": 12,
+      "toAyah": 52
+    },
+    {
+      "number": 13,
+      "fromSurah": 12,
+      "fromAyah": 53,
+      "toSurah": 14,
+      "toAyah": 52
+    },
+    {
+      "number": 14,
+      "fromSurah": 15,
+      "fromAyah": 1,
+      "toSurah": 16,
+      "toAyah": 128
+    },
+    {
+      "number": 15,
+      "fromSurah": 17,
+      "fromAyah": 1,
+      "toSurah": 18,
+      "toAyah": 74
+    },
+    {
+      "number": 16,
+      "fromSurah": 18,
+      "fromAyah": 75,
+      "toSurah": 20,
+      "toAyah": 135
+    },
+    {
+      "number": 17,
+      "fromSurah": 21,
+      "fromAyah": 1,
+      "toSurah": 22,
+      "toAyah": 78
+    },
+    {
+      "number": 18,
+      "fromSurah": 23,
+      "fromAyah": 1,
+      "toSurah": 25,
+      "toAyah": 20
+    },
+    {
+      "number": 19,
+      "fromSurah": 25,
+      "fromAyah": 21,
+      "toSurah": 27,
+      "toAyah": 55
+    },
+    {
+      "number": 20,
+      "fromSurah": 27,
+      "fromAyah": 56,
+      "toSurah": 29,
+      "toAyah": 45
+    },
+    {
+      "number": 21,
+      "fromSurah": 29,
+      "fromAyah": 46,
+      "toSurah": 33,
+      "toAyah": 30
+    },
+    {
+      "number": 22,
+      "fromSurah": 33,
+      "fromAyah": 31,
+      "toSurah": 36,
+      "toAyah": 27
+    },
+    {
+      "number": 23,
+      "fromSurah": 36,
+      "fromAyah": 28,
+      "toSurah": 39,
+      "toAyah": 31
+    },
+    {
+      "number": 24,
+      "fromSurah": 39,
+      "fromAyah": 32,
+      "toSurah": 41,
+      "toAyah": 46
+    },
+    {
+      "number": 25,
+      "fromSurah": 41,
+      "fromAyah": 47,
+      "toSurah": 45,
+      "toAyah": 37
+    },
+    {
+      "number": 26,
+      "fromSurah": 46,
+      "fromAyah": 1,
+      "toSurah": 51,
+      "toAyah": 30
+    },
+    {
+      "number": 27,
+      "fromSurah": 51,
+      "fromAyah": 31,
+      "toSurah": 57,
+      "toAyah": 29
+    },
+    {
+      "number": 28,
+      "fromSurah": 58,
+      "fromAyah": 1,
+      "toSurah": 66,
+      "toAyah": 12
+    },
+    {
+      "number": 29,
+      "fromSurah": 67,
+      "fromAyah": 1,
+      "toSurah": 77,
+      "toAyah": 50
+    },
+    {
+      "number": 30,
+      "fromSurah": 78,
+      "fromAyah": 1,
+      "toSurah": 114,
+      "toAyah": 6
+    }
+  ]
+}
